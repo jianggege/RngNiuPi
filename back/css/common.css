@@ -1,3 +1,14 @@
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 .body_bg {
   background-color: #222D32;
 }
@@ -11,4 +22,53 @@
 
 .mt_150 {
   margin-top: 150px;
+}
+.lt_aside{
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 180px;
+  background: #222D32;
+}
+.lt_aside .brand{
+  width: 180px;
+  height: 50px;
+  background: #367FA9;;
+  text-align: center;
+  line-height: 50px;
+}
+.lt_aside .brand a{
+  color: #fff;
+  font-size: 25px;
+}
+.lt_aside .user{
+  height: 180px;
+  padding-top: 30px;
+}
+.lt_aside .user img{
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+.lt_aside .user p{
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+}
+.lt_aside .nav i {
+  margin-right: 5px;
+}
+.lt_aside .nav a{
+  height: 40px;
+  width: 100%;
+  display: block;
+  line-height: 40px;
+  color: #fff;
+  padding-left: 40px;
+  border-left: 3px solid transparent;
 }
