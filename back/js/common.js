@@ -7,7 +7,7 @@ $(document).ajaxStart(function () {
     setTimeout(function() {
         // 关闭进度条
         NProgress.done();
-      }, 2000);
+      }, 500);
   });
 
 
